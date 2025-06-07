@@ -21,7 +21,7 @@ namespace View {
         // Menampilkan menu utama todolist
         function showTodolist(): void 
         {
-            // Selama true, tampilkan menu dan minta input dari user
+            // Selama true, tampilkan menu dan minta input dari user.
             while (true) {
                 $this->todolistService->showTodolist();
             
