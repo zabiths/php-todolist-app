@@ -30,7 +30,7 @@ namespace View {
                 echo "2. Hapus Todo" . PHP_EOL;
                 echo "x. Exit" . PHP_EOL;
 
-                // Minta input dari user
+                // Minta input dari user.
                 $pilihan = InputHelper::input("Pilih");
 
                 if ($pilihan == "1") {
