@@ -37,7 +37,7 @@ namespace View {
                     $this->addTodolist();
                 } else if ($pilihan == "2") {
                     $this->removeTodolist();
-                } else if ($pilihan == "x") {
+                } else if ($pilihan == "z") {
                     // Jika user memilih x, keluar dari loop
                     // dan tampilkan pesan "Sampai Jumpa Lagi"
                     break;
